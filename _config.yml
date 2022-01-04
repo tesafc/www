@@ -1,0 +1,13 @@
+title: tesa fc
+description: official website tesa fc
+baseurl: /www
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+author:
+  name: mhmdilfaj
+  email: mhmdilfaj@gmail.com
+version: 1.0.0
