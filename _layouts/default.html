@@ -17,14 +17,21 @@
   </head>
   <body class="d-flex h-100 text-center text-white bg-dark">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header>
-        <a href="{{ site.baseurl }}">{{ site.title }}</a>
+      <header class="mb-auto">
+        <div>
+          <h3 class="float-md-start mb-0"><a href="{{ site.baseurl }}">{{ site.title }}</a></h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link" href="#">Match</a>
+          </nav>
+        </div>
       </header>
       <main>
         {{ content }}
       </main>
       <footer class="mt-auto text-white-50">
-        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+        <p>Di buat oleh <a href="https://twitter.com/mdo" class="text-white">hantu laut</a>.</p>
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
